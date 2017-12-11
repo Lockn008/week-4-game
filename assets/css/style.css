@@ -1,0 +1,68 @@
+body {
+	background-image: url(../images/intersection.png);
+}
+
+#container {
+	width: 546px;
+	margin: 0 auto;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 16px;
+	color: #722514;
+}
+
+h1 {
+	margin: 5px auto;
+	font-size: 30px;
+	background-color: #33DBFF;
+	text-align: center;
+	padding: 20px;
+}
+
+.directions {
+	background-color: #3375FF;
+	padding: 20px;
+}
+
+p {
+	padding-top: 8px;
+}
+
+.stats {
+	margin-top: 5px;
+}
+
+.target {
+	height: 100px;
+	width: 158px;
+	background-color: #BD33FF;
+	margin-right: 5px;
+	padding: 20px;
+	float: left;
+}
+
+.record {
+	height: 100px;
+	width: 100px;
+	background-color: #FF33DB;
+	margin-right: 5px;
+	padding: 20px;
+	float: left;
+}
+
+.score {
+	height: 100px;
+	width: 158px;
+	background-color: #FF3375;
+	padding: 20px;
+	float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#gems {
+	margin: 10px;
+}
