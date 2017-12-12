@@ -5,11 +5,7 @@
 	<title>Crystals Collector | Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"></link>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
-	<script
-			  src="https://code.jquery.com/jquery-3.2.1.js"
-			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-			  crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 </head>
 <body>
 <div id="container">
@@ -23,11 +19,11 @@
 		<p>Each time the game start, the game will change the values of each crystal.  A new game will start automatically each time you win or lose.</p>
 	</div>
 	<div class="stats clearfix">
-		<div class="target">Target: <br><span></span>
+		<div class="target"><span class="box-text">Target:</span><span id="target-score"></span>
 		</div>
-		<div class="record">Wins: <span></span><br>Losses: <span></span>
+		<div class="record">Wins: <span id="win-score"></span><br><br>Losses: <span id="loss-score"></span><br><br><span id="win-lose"></span>
 		</div>
-		<div class="score">Your Score: <span></span>
+		<div class="score"><span class="box-text">Your Score:</span><span id="user-score"></span>
 		</div>
 	</div>
 	<div id="gems">
@@ -36,8 +32,11 @@
 		<img src="assets/images/gem-green.png" id="green-gem"/>
 		<img src="assets/images/gem-blue.png" id="blue-gem"/>
 	</div>
-	<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
 </div>
+		<div class="footer">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 	
 </body>
 </html>
